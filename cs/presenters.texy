@@ -56,9 +56,9 @@ Když se po stažení distribuce Nette Framework podíváte do adresáře `sandb
 │   ├── <b>presenters/</b>       ← třídy presenterů
 │   │   ├── <b>HomepagePresenter.php</b>  ← třída presenteru Homepage
 │   │   └── <b>templates/</b>    ← adresář se šablonami
-│   │       ├── <b>@layout.latte</b> ← šablona společného layoutu
-│   │       └── <b>Homepage/</b>     ← šablony presenteru Homepage
-│   │           └── <b>default.latte</b>  ← šablona akce default
+│   │       ├── <b>@layout.latte</b>  ← šablona společného layoutu
+│   │       ├── <b>Homepage/</b>      ← šablony presenteru Homepage
+│   │       └── <b>default.latte</b>  ← šablona akce default
 │   ├── <b>router/</b>           ← třídy routerů
 │   │
 │   └── <b>bootstrap.php</b>     ← zaváděcí soubor aplikace

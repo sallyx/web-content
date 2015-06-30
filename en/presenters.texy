@@ -52,13 +52,13 @@ When you look at `sandbox` after downloading the Nette Framework package you wil
 │   │   └── <b>config.local.neon</b>
 │   │
 │   ├── <b>forms/</b>            ← form classes
-│   ├── <b>model/</b>            ← model layer and its classes
+│   ├── <b>model/</b>            ← model layer and it's classes
 │   ├── <b>presenters/</b>       ← presenter classes
 │   │   ├── <b>HomepagePresenter.php</b>  ← Homepage presenter class
 │   │   └── <b>templates/</b>    ← templates directory
-│   │       ├── <b>@layout.latte</b> ← template of shared layout
-│   │       └── <b>Homepage/</b>     ← templates for Homepage presenter
-│   │           └── <b>default.latte</b>  ← template for default action
+│   │       ├── <b>@layout.latte</b>  ← template of shared layout
+│   │       ├── <b>Homepage/</b>      ← tempaltes for Homepage presenter
+│   │       └── <b>default.latte</b>  ← template for default action
 │   ├── <b>router/</b>           ← router classes
 │   │
 │   └── <b>bootstrap.php</b>     ← application boot file
